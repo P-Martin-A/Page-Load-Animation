@@ -14,7 +14,7 @@ a{
     color: white;
 }
 
-.menu{
+.icono{
     display: none;
 }
 
@@ -38,7 +38,7 @@ header nav{
     left: 52px;
 }
 
-header nav .icono, header nav .menu{
+header nav, header nav .icono, header nav .menu{
     position: relative;
     z-index: 10;
 }
@@ -244,11 +244,11 @@ header .flex-container .texto a, header .flex-container .imagen img{
 
 @media screen and (max-width: 540px){
     
-    header nav .icono{
+    header nav .menu{
         display: none;
     }
 
-    header nav ion-icon.menu{
+    header nav ion-icon.icono{
         display: block;
         color: white;
     }
